@@ -1,0 +1,17 @@
+.cursor {
+    background-color: #5a5a5a;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    *{
+        mix-blend-mode: difference;
+    }
+  }

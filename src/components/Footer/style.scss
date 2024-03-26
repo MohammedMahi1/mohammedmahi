@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 23vh;
+    background-color: #fff;
+    color: #101010;
+    *{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        height: fit-content;
+        overflow: hidden;
+    }
+
+}
+@media only screen and (max-width:1000px){
+    .footer{
+        height: 20vh;
+        *{
+            font-size: 0.7rem;
+        }
+    }
+}

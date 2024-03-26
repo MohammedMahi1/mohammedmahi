@@ -1,0 +1,34 @@
+.nav-container {
+    padding: 20px 166px;
+    user-select: none;
+}
+
+.hire-btn {
+    border: 2px solid #fff;
+    width: fit-content;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.group-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+
+    .link {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .nav-container {
+        padding: 20px;
+    }
+}

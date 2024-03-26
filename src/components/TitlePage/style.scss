@@ -1,0 +1,16 @@
+.title-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    user-select: none;
+    .icon-title{
+        font-size: 60px;
+        mix-blend-mode: difference;
+        color: white;
+    }
+    .title{
+        font-size: 50px;
+    }
+}
