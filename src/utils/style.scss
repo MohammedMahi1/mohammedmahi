@@ -15,3 +15,9 @@
         mix-blend-mode: difference;
     }
   }
+
+@media only screen and (max-width:1000px){
+    .cursor{
+        visibility: hidden;
+    }
+}

@@ -11,7 +11,7 @@ const datas = [
     {vid:vid , title:"Stock Gestion", label:"Web Site"},
 ]
 const Works = () => {
-    const handleWorks= false
+    const handleWorks= true
 
     return (
         <Element name="Works" className="works">
