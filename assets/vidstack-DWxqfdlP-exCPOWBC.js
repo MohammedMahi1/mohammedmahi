@@ -1,0 +1,1 @@
+import{d as i,H as t}from"./index-DRROSflN.js";class r{constructor(s){this.Da=s}Cb(){i(this.da)&&this.Pe()}sa(){t(this.da)&&window.cancelAnimationFrame(this.da),this.da=void 0}Pe(){this.da=window.requestAnimationFrame(()=>{i(this.da)||(this.Da(),this.Pe())})}}export{r as R};
