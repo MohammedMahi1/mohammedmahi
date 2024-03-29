@@ -80,11 +80,14 @@ const WorkRow = ({ title, label, vid }: {vid:string, title: string, label: strin
       initial={{
         height: 80
       }}
+      transition={{
+        ease:"linear"
+      }}
       className="opened-work">
 
 
 
-      <div className='group-row'>
+      <div className='group-row' >
         <div className='group-column'>
           <motion.div 
           
@@ -94,10 +97,12 @@ const WorkRow = ({ title, label, vid }: {vid:string, title: string, label: strin
                 y: 95
               }}
               transition={{
-                ease: "easeOut",
+                ease: "linear",
                 duration: .3,
               }}
-          className="title-work" >
+          className="title-work"
+          onClick={()=>{setOpen(!isOpen)}}
+          >
             <p>{title}</p>
           </motion.div>
 
@@ -132,8 +137,10 @@ const WorkRow = ({ title, label, vid }: {vid:string, title: string, label: strin
       </div>
 
 
+<div className="icon-work-row">
 
       <Hamburger color='#ffffff' toggled={isOpen} toggle={setOpen} />
+</div>
     </motion.div>
   )
 }

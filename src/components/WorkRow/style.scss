@@ -62,9 +62,30 @@
     justify-content: center;
     padding: 20px 0 !important;
 }
-
-@media only screen and (max-width:1000px) {
+.icon-work-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+@media only screen and (max-width:700px) {
     .work-container {
         padding: 20px;
+    }
+    .icon-work-row{
+        display: none;
+    }
+    .opened-work{
+        padding: 20px;
+    }
+    .title-work p {
+        font-size: 50px;
+    }
+    .group-row{
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 }
