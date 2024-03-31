@@ -7,5 +7,5 @@ export default defineConfig({
     base:"/mohammedmahi/",
   optimizeDeps: {
     exclude: ['js-big-decimal']
-  }
+  },
 })

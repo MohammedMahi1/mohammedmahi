@@ -17,30 +17,6 @@ import { Variants, motion } from 'framer-motion'
 // import { useEffect, useState } from "react";
 const WorkRow = ({ title, label, vid }: {vid:string, title: string, label: string }) => {
   const [isOpen, setOpen] = useState(false)
-  //   const [mousePosition, setMousePosition] = useState({
-  //     x: 0,
-  //     y: 0
-  // });
-
-  // useEffect(() => {
-  //     const mouseMove = (e: MouseEvent) => {
-  //         setMousePosition({
-  //             x: e.clientX,
-  //             y: e.clientY
-  //         })
-  //     }
-
-  //     window.addEventListener("mousemove", mouseMove);
-
-  //     return () => {
-  //         window.removeEventListener("mousemove", mouseMove);
-  //     }
-  // }, []);
-
-
-  // console.log(isOpen);
-  // work-container
-
 
 
   const variants: Variants = {
@@ -93,9 +69,7 @@ const WorkRow = ({ title, label, vid }: {vid:string, title: string, label: strin
           
           variants={variants}
               animate={isOpen ? "whileTitleOpen" : "whileTitleClose"}
-              initial={{
-                y: 95
-              }}
+              initial={{y:95}}
               transition={{
                 ease: "linear",
                 duration: .3,

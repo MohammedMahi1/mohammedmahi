@@ -15,6 +15,7 @@
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@types/react-scroll": "^1.8.10",
+    "@uidotdev/usehooks": "^2.4.1",
     "@vidstack/player": "^1.6.5",
     "@vidstack/player-react": "^1.6.5",
     "@vidstack/react": "^1.10.9",
